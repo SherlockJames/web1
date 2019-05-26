@@ -11,7 +11,6 @@
 				margin: 0;
 				vertical-align: baseline;
 				list-style: none;
-				transition: all 0.5s;
 			}
 			
 			p {
@@ -19,8 +18,9 @@
 			}
 			
 			.my_hezi {
+				width: 1200px;
 				border-radius: 6px;
-				border: 2px #c3c3c3 solid;
+				border: 1px #c3c3c3 solid;
 				float: left;
 				margin-top: 20px;
 			}
@@ -35,7 +35,7 @@
 				float: left;
 				position: absolute;
 				left: 0px;
-				border-right: 2px #e8e8e8 solid;
+				border-right: 1px #e8e8e8 solid;
 				background: white;
 			}
 			
@@ -71,20 +71,28 @@
 				padding-left: 142px;
 				position: relative;
 				border-bottom: 2px #e8e8e8 solid;
+				padding-bottom:27px;
 			}
 			
 			.my_hezi>ul>li>ul>li {
 				display: inline-block;
-				margin: 12px;
-				width: 115px;
-				height: 115px;
+				margin: 27px;
+				margin-right: 0;
+				margin-bottom: 0;
+				width: 116px;
+				height: 116px;
 				text-align: center;
 				background: white;
 				border: 2px solid #e8e8e8;
 				border-radius: 6px;
 				box-sizing: content-box;
+				transition: all 0.5s;
+				
 			}
-			
+				.my_hezi>ul>li>ul{
+					width:100%;
+					
+				}
 			.my_hezi>ul>li>ul>li:hover {
 				box-shadow: 0 0 16px rgba(102, 102, 102, 0.2);
 			}
