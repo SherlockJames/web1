@@ -6,7 +6,7 @@
   font-family: "宋体";
 }
 .qq_onService_panel+div{
-  display:none;}
+  display:none !important;}
 p {
   text-align: center;
   text-decoration: none;
