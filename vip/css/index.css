@@ -9,8 +9,8 @@ p {
   text-align: center;
   text-decoration: none;
 }
-body {
-  background: #f7f7f7;
+html,body {
+  background: transparent;
 }
 a:link {
   color: inherit;
