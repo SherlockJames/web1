@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="bangong_left">
+			<ul>
+				<li class="bangone_left_fox" data_add="https://doc.weiyun.com/">
+					<div></div>
+					<p>腾讯文档</p>
+				</li>
+				<li data_add="https://www.ilovepdf.com/zh-cn/pdf_to_word">
+					<div></div>
+					<p>PDF转DOC</p>
+				</li>
+				<li data_add="https://zhcn.109876543210.com/">
+					<div></div>
+					<p>图片转文字</p>
+				</li>
+				<li data_add="https://www.pexels.com/">
+					<div></div>
+					<p>免费图库</p>
+				</li>
+				<li data_add="http://naotu.baidu.com/">
+					<div></div>
+					<p>百度脑图</p>
+				</li>
+				<li data_add="https://www.easyicon.net/">
+					<div></div>
+					<p>图标库</p>
+				</li>
+				<li data_add="sssssssssssssssssssssss">
+					<div></div>
+					<p></p>
+				</li>
+				<li data_add="sssssssssssssssssssssss">
+					<div></div>
+					<p></p>
+				</li>
+				<li data_add="sssssssssssssssssssssss">
+					<div></div>
+					<p></p>
+				</li>
+				<li data_add="sssssssssssssssssssssss">
+					<div></div>
+					<p></p>
+				</li>
+			</ul>
+		</div>
+		<iframe class="bangong_right_iframe" src="https://doc.weiyun.com/" allowtransparency="true"  frameborder="0"></iframe>
+	</body>
+	<script type="text/javascript">
+		var bangong_left_li=document.querySelectorAll(".bangong_left li")
+		var bangong_right_iframe=document.querySelector(".bangong_right_iframe")
+		   for(var i=0;i<bangong_left_li.length;i++){
+		   	      bangong_left_li[i].onmousedown=function(){
+		   	      	bangong_right_iframe.setAttribute("src",this.getAttribute("data_add"));
+		   	      	for(var j=0;j<bangong_left_li.length;j++){
+		   	      		bangong_left_li[j].removeAttribute("class")
+		   	      	}
+		   	      	this.setAttribute("class","bangone_left_fox")
+		   	      }
+		   	
+		   }
+	</script>
+</html>
