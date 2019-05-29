@@ -5,6 +5,9 @@
   list-style: none;
   font-family: "宋体";
 }
+
+body .headFullXY,.ev-module-edit,.footer,.ev_zhichi{
+  display:none !important;}
 .ev_zhichi{
   display:none !important;}
 p {
