@@ -90,6 +90,42 @@ body {
 .bangong_left ul li:nth-child(7) > div {
   background-image: url(../img/体育直播.png);
 }
+.bangong_left ul li:nth-child(8) > div {
+  background-image: url(../img/简历.png);
+}
+.bangong_left ul li:nth-child(9) > div {
+  background-image: url(../img/PPT.png);
+}
+.bangong_left ul li:nth-child(10) > div {
+  background-image: url(../img/图片编辑.png);
+}
+.bangong_left ul li:nth-child(11) > div {
+  background-image: url(../img/PDF工具.png);
+}
+.bangong_left ul li:nth-child(12) > div {
+  background-image: url(../img/在线翻译.png);
+}
+.bangong_left ul li:nth-child(13) > div {
+  background-image: url(../img/在线网盘.png);
+}
+.bangong_left ul li:nth-child(14) > div {
+  background-image: url(../img/五险一金计算.png);
+}
+.bangong_left ul li:nth-child(15) > div {
+  background-image: url(../img/在线修图.png);
+}
+.bangong_left ul li:nth-child(16) > div {
+  background-image: url(../img/种子转磁力链接.png);
+}
+.bangong_left ul li:nth-child(17) > div {
+  background-image: url(../img/电子书搜索.png);
+}
+.bangong_left ul li:nth-child(18) > div {
+  background-image: url(../img/快递单号查询.png);
+}
+.bangong_left ul li:nth-child(19) > div {
+  background-image: url(../img/动漫查找.png);
+}
 .bangone_left_fox {
   background: white;
 }
