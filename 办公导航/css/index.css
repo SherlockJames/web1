@@ -126,6 +126,9 @@ body {
 .bangong_left ul li:nth-child(19) > div {
   background-image: url(../img/动漫查找.png);
 }
+.bangong_left ul li:nth-child(20) > div {
+  background-image: url(../img/在线文档.png);
+}
 .bangone_left_fox {
   background: white;
 }
