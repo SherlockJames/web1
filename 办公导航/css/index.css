@@ -88,7 +88,7 @@ body {
   background-image: url(../img/图标库.svg);
 }
 .bangong_left ul li:nth-child(7) > div {
-  background-image: url(../img/体育直播.png);
+  background-image: url(../img/免费图片.png);
 }
 .bangong_left ul li:nth-child(8) > div {
   background-image: url(../img/简历.png);
@@ -124,9 +124,6 @@ body {
   background-image: url(../img/快递单号查询.png);
 }
 .bangong_left ul li:nth-child(19) > div {
-  background-image: url(../img/动漫查找.png);
-}
-.bangong_left ul li:nth-child(20) > div {
   background-image: url(../img/在线文档.png);
 }
 .bangone_left_fox {
