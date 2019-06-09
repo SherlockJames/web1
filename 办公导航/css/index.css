@@ -82,13 +82,13 @@ body {
   background-image: url(../img/免费图库.png);
 }
 .bangong_left ul li:nth-child(5) > div {
-  background-image: url(../img/百度脑图.png);
-}
-.bangong_left ul li:nth-child(6) > div {
   background-image: url(../img/图标库.svg);
 }
-.bangong_left ul li:nth-child(7) > div {
+.bangong_left ul li:nth-child(6) > div {
   background-image: url(../img/免费图片.png);
+}
+.bangong_left ul li:nth-child(7) > div {
+  background-image: url(../img/百度脑图.png);
 }
 .bangong_left ul li:nth-child(8) > div {
   background-image: url(../img/简历.png);
